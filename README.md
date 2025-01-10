@@ -41,7 +41,7 @@ Handle your await/async promises safely without try/catch blocks.
 import { safe } from '@kearash/safe';
 
 const fetchData = async () => {
-  const [error, data] = await safeAwait(fetch('https://jsonplaceholder.typicode.com/'));
+  const [error, data] = await safe(fetch('https://jsonplaceholder.typicode.com/'));
   if (error) {
     console.error('Error fetching data:', error);
     return;
