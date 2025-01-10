@@ -1,5 +1,5 @@
 {
-  "name": "safeawait",
+  "name": "@kearash/safe",
   "version": "0.1.0",
   "description": "Safe async/await promise error handler.",
   "main": "dist/index.js",

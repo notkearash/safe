@@ -1,4 +1,4 @@
-export const safeAwait = async <T>(
+export const safe = async <T>(
   promise: Promise<T>
 ): Promise<[undefined, T] | [Error]> => {
   return promise

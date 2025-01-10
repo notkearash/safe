@@ -1,1 +1,1 @@
-export { safeAwait } from './safeAwait';
+export { safe } from './safe';

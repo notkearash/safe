@@ -1,4 +1,4 @@
-![safeawait banner](./safeawait.png)
+![safe() banner](./safe.png)
 
 Handle your await/async promises safely without try/catch blocks.
 
@@ -7,7 +7,7 @@ Handle your await/async promises safely without try/catch blocks.
   <summary>npm</summary>
 
   ```bash
-  npm i safeawait
+  npm i @kearash/safe
   ```
 </details>
 
@@ -15,7 +15,7 @@ Handle your await/async promises safely without try/catch blocks.
   <summary>pnpm</summary>
 
   ```bash
-  pnpm add safeawait
+  pnpm add @kearash/safe
   ```
 </details>
 
@@ -23,7 +23,7 @@ Handle your await/async promises safely without try/catch blocks.
   <summary>bun</summary>
 
   ```bash
-  bun i safeawait
+  bun i @kearash/safe
   ```
 </details>
 
@@ -31,14 +31,14 @@ Handle your await/async promises safely without try/catch blocks.
   <summary>yarn</summary>
 
   ```bash
-  yarn add safeawait
+  yarn add @kearash/safe
   ```
 </details>
 
 ## Usage
 
 ```ts
-import { safeAwait } from 'safeawait';
+import { safe } from '@kearash/safe';
 
 const fetchData = async () => {
   const [error, data] = await safeAwait(fetch('https://jsonplaceholder.typicode.com/'));
