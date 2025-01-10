@@ -4,9 +4,11 @@
   "description": "Safe async/await promise error handler.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": ["dist", "LICENSE"],
   "scripts": {
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
